@@ -54,14 +54,46 @@
 		9DF8F561200355CA00507B8B /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				9DF8F562200355CA00507B8B /* AppDelegate.swift */,
-				9DF8F564200355CA00507B8B /* ViewController.swift */,
-				9DF8F566200355CA00507B8B /* Main.storyboard */,
+				9DF8F5792003560D00507B8B /* Model */,
+				9DF8F57A2003561400507B8B /* View */,
+				9DF8F57B2003561B00507B8B /* Controller */,
+				9DF8F578200355EC00507B8B /* Application */,
 				9DF8F569200355CA00507B8B /* Assets.xcassets */,
-				9DF8F56B200355CA00507B8B /* LaunchScreen.storyboard */,
-				9DF8F56E200355CA00507B8B /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		9DF8F578200355EC00507B8B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DF8F56B200355CA00507B8B /* LaunchScreen.storyboard */,
+				9DF8F562200355CA00507B8B /* AppDelegate.swift */,
+				9DF8F56E200355CA00507B8B /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9DF8F5792003560D00507B8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DF8F57A2003561400507B8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF8F566200355CA00507B8B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DF8F57B2003561B00507B8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DF8F564200355CA00507B8B /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = Swoosh/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swoosh/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = Swoosh/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swoosh/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
